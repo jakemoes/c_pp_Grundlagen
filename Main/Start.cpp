@@ -10,6 +10,7 @@
 
 #include "../GetStarted/GetStarted.h"
 #include "../Syntax/Syntax.h"
+#include "../Output/Output.h"
 
 
 
@@ -20,6 +21,7 @@ int main () {
 
     GetStarted getStarted;
     Syntax syntax;
+    Output output;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -34,6 +36,18 @@ int main () {
 
     newLine();
     std::cout << GREEN << "Output" << RESET << std::endl;
+    output.printNumbers();
+    output.breakInText();
+    output.breakSeperated();
+    output.blankLine();
+    output.endlManipulator();
+    output.pritntNameAndAge();
+
+    newLine();
+
+    std::cout << GREEN << "Comments" << RESET << std::endl;
+
+
 
     return 0;
 }

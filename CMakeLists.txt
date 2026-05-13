@@ -13,4 +13,6 @@ add_executable(c_pp_Grundlagen
         Main/Start.cpp
         Main/Start.h
         Utility/Console.h
+        Output/Output.cpp
+        Output/Output.h
 )

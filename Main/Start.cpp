@@ -45,7 +45,7 @@ int main () {
 
     newLine();
 
-    std::cout << GREEN << "Comments" << RESET << std::endl;
+    std::cout << GREEN << "Variables" << RESET << std::endl;
 
 
 

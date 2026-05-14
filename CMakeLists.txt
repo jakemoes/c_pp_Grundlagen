@@ -15,4 +15,6 @@ add_executable(c_pp_Grundlagen
         Utility/Console.h
         Output/Output.cpp
         Output/Output.h
+        Variables/Variables.cpp
+        Variables/Variables.h
 )

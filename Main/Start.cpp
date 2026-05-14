@@ -11,6 +11,7 @@
 #include "../GetStarted/GetStarted.h"
 #include "../Syntax/Syntax.h"
 #include "../Output/Output.h"
+#include "../Variables/Variables.h"
 
 
 
@@ -22,6 +23,7 @@ int main () {
     GetStarted getStarted;
     Syntax syntax;
     Output output;
+    Variables variables;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -46,6 +48,18 @@ int main () {
     newLine();
 
     std::cout << GREEN << "Variables" << RESET << std::endl;
+    variables.declaring();
+    variables.initialising();
+    variables.types();
+    variables.displayVariables();
+    variables.addition();
+    variables.declareMultibleVariables();
+    variables.assignSameValue();
+    variables.identify();
+    variables.constants ();
+    variables.studentData();
+    variables.areaOfRectangle();
+    variables.codingChallenge();
 
 
 

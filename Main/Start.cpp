@@ -12,7 +12,8 @@
 #include "../Syntax/Syntax.h"
 #include "../Output/Output.h"
 #include "../Variables/Variables.h"
-
+#include  "../UserInput/userInput.h"
+#include  "../DataTypes/DataTypes.h"
 
 
 
@@ -24,6 +25,8 @@ int main () {
     Syntax syntax;
     Output output;
     Variables variables;
+    UserInput userInput;
+    DataTypes dataTypes;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -60,6 +63,31 @@ int main () {
     variables.studentData();
     variables.areaOfRectangle();
     variables.codingChallenge();
+
+    newLine();
+
+    std::cout << GREEN << "User Input" << RESET << std::endl;
+    //deactivated uncomment to try them
+    std::cout << "-- deactivated --" << std::endl;
+    //userInput.general();
+    //userInput.additionCalculator();
+
+
+    newLine();
+
+    std::cout << GREEN << "Data Types" << RESET << std::endl;
+    dataTypes.numericTypes();
+    dataTypes.sientificNumbers();
+    dataTypes.bolean();
+    dataTypes.character();
+    dataTypes.characterASCI();
+    dataTypes.stringType();
+    dataTypes.autoType();
+    dataTypes.realLifeExample();
+    dataTypes.codeChallange();
+
+    newLine();
+    std::cout << GREEN << "Operators" << RESET << std::endl;
 
 
 

@@ -39,4 +39,5 @@ int Output::endlManipulator() {
 int Output::pritntNameAndAge() {
     std::cout << "Jakob" << std::endl;
     std::cout << 25 << std::endl;
+    return 0;
 }

@@ -17,4 +17,8 @@ add_executable(c_pp_Grundlagen
         Output/Output.h
         Variables/Variables.cpp
         Variables/Variables.h
+        UserInput/UserInput.cpp
+        UserInput/UserInput.h
+        DataTypes/DataTypes.cpp
+        DataTypes/DataTypes.h
 )

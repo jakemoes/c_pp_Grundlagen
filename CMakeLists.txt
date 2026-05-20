@@ -21,4 +21,6 @@ add_executable(c_pp_Grundlagen
         UserInput/UserInput.h
         DataTypes/DataTypes.cpp
         DataTypes/DataTypes.h
+        Operators/Operators.cpp
+        Operators/Operators.h
 )

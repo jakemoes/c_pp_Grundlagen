@@ -14,7 +14,7 @@
 #include "../Variables/Variables.h"
 #include  "../UserInput/userInput.h"
 #include  "../DataTypes/DataTypes.h"
-
+#include  "../Operators/Operators.h"
 
 
 
@@ -27,6 +27,7 @@ int main () {
     Variables variables;
     UserInput userInput;
     DataTypes dataTypes;
+    Operators operators;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -88,7 +89,13 @@ int main () {
 
     newLine();
     std::cout << GREEN << "Operators" << RESET << std::endl;
-
+    operators.arethmeticOperators();
+    operators.trackingSavings();
+    operators.assignmentOperators();
+    operators.comparisonOperators();
+    operators.logicOperators();
+    operators.precedenceOperator();
+    operators.OpertorsCodeChallange();
 
 
     return 0;

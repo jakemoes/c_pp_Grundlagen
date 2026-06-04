@@ -17,7 +17,7 @@
 #include  "../Operators/Operators.h"
 #include  "../Strings/Strings.h"
 #include  "../Math/Math.h"
-
+#include  "../Booleans/Booleans.h"
 
 
 int main () {
@@ -32,6 +32,7 @@ int main () {
     Operators operators;
     Strings strings;
     Math math;
+    Booleans booleans;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -103,10 +104,10 @@ int main () {
 
     std::cout << GREEN << "Variables" << RESET << std::endl;
     strings.overview();
-    strings.StringConcatenation();
+    strings.stringConcatenation();
     strings.numberAndStrings();
     strings.stringLength();
-    strings.AccessingStrings();
+    strings.accessingStrings();
     strings.specialChars();
     std::cout << "--Input deactivated --" << std::endl;
     //strings.userInputStrings();
@@ -115,6 +116,13 @@ int main () {
 
     std::cout << GREEN << "Math" << RESET << std::endl;
     math.overview();
+
+    std::cout << GREEN << "Booleans" << RESET << std::endl;
+    booleans.overview();
+    booleans.booleanExpressions();
+    booleans.realLifeExample();
+    booleans.codingChallange();
+
 
     return 0;
 }

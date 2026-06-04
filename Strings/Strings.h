@@ -9,10 +9,10 @@
 class Strings {
     public:
     int overview();
-    int StringConcatenation();
+    int stringConcatenation();
     int numberAndStrings();
     int stringLength();
-    int AccessingStrings();
+    int accessingStrings();
     int specialChars();
     int userInputStrings();
     int cStyleStrings();

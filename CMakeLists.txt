@@ -27,4 +27,6 @@ add_executable(c_pp_Grundlagen
         Strings/Strings.h
         Math/Math.cpp
         Math/Math.h
+        Booleans/Booleans.cpp
+        Booleans/Booleans.h
 )

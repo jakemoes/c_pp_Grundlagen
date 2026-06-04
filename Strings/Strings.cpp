@@ -14,7 +14,7 @@ int Strings::overview() {
     return 0;
 }
 
-int Strings::StringConcatenation() {
+int Strings::stringConcatenation() {
     std::string firstName = "John";
     std::string lastName = "Doe";
     std::string fullName = firstName + " " + lastName;
@@ -45,7 +45,7 @@ int Strings::stringLength() {
     return 0;
 }
 
-int Strings::AccessingStrings() {
+int Strings::accessingStrings() {
     std::string myString = "Hello";
     std::cout<<myString[0]<<std::endl;
     std::cout<<myString[1]<<std::endl;

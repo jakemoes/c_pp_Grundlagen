@@ -16,6 +16,7 @@
 #include  "../DataTypes/DataTypes.h"
 #include  "../Operators/Operators.h"
 #include  "../Strings/Strings.h"
+#include  "../Math/Math.h"
 
 
 
@@ -30,6 +31,7 @@ int main () {
     DataTypes dataTypes;
     Operators operators;
     Strings strings;
+    Math math;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -110,6 +112,9 @@ int main () {
     //strings.userInputStrings();
     strings.cStyleStrings();
     strings.codeChallange();
+
+    std::cout << GREEN << "Math" << RESET << std::endl;
+    math.overview();
 
     return 0;
 }

@@ -15,6 +15,7 @@
 #include  "../UserInput/userInput.h"
 #include  "../DataTypes/DataTypes.h"
 #include  "../Operators/Operators.h"
+#include  "../Strings/Strings.h"
 
 
 
@@ -28,6 +29,7 @@ int main () {
     UserInput userInput;
     DataTypes dataTypes;
     Operators operators;
+    Strings strings;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -97,6 +99,18 @@ int main () {
     operators.precedenceOperator();
     operators.OpertorsCodeChallange();
 
+    std::cout << GREEN << "Variables" << RESET << std::endl;
+    strings.overview();
+    strings.StringConcatenation();
+    strings.numberAndStrings();
+    strings.stringLength();
+    strings.AccessingStrings();
+    strings.specialChars();
+    std::cout << "--Input deactivated --" << std::endl;
+    //strings.userInputStrings();
+    strings.cStyleStrings();
+    strings.codeChallange();
 
     return 0;
 }
+

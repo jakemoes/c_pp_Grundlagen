@@ -23,4 +23,6 @@ add_executable(c_pp_Grundlagen
         DataTypes/DataTypes.h
         Operators/Operators.cpp
         Operators/Operators.h
+        Strings/Strings.cpp
+        Strings/Strings.h
 )

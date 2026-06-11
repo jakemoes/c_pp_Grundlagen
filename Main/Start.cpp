@@ -18,6 +18,7 @@
 #include  "../Strings/Strings.h"
 #include  "../Math/Math.h"
 #include  "../Booleans/Booleans.h"
+#include  "../IfElse/IfElse.h"
 
 
 int main () {
@@ -33,6 +34,7 @@ int main () {
     Strings strings;
     Math math;
     Booleans booleans;
+    IfElse ifElse;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -122,6 +124,25 @@ int main () {
     booleans.booleanExpressions();
     booleans.realLifeExample();
     booleans.codingChallange();
+
+    std::cout << GREEN << "If Statements" << RESET << std::endl;
+    ifElse.overview();
+    ifElse.elseStatement();
+    ifElse.elseIf();
+    ifElse.shortHandIfElse();
+    ifElse.nestedIf ();
+    ifElse.logicalOperators();
+    ifElse.realLifeExample();
+    ifElse.codeChallange();
+
+    std::cout << GREEN << "Switch" << RESET << std::endl;
+
+
+
+
+
+
+
 
 
     return 0;

@@ -15,4 +15,6 @@ int Math::overview() {
     std::cout << sqrt(64) << std::endl;
     std::cout << round(2.6) << std::endl;
     std::cout << log(2) << std::endl;
+
+    return 0;
 }

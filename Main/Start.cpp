@@ -19,6 +19,7 @@
 #include  "../Math/Math.h"
 #include  "../Booleans/Booleans.h"
 #include  "../IfElse/IfElse.h"
+#include  "../Switch/Switch.h"
 
 
 int main () {
@@ -35,6 +36,7 @@ int main () {
     Math math;
     Booleans booleans;
     IfElse ifElse;
+    Switch switches;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -48,6 +50,7 @@ int main () {
     syntax.codeChallenge();
 
     newLine();
+
     std::cout << GREEN << "Output" << RESET << std::endl;
     output.printNumbers();
     output.breakInText();
@@ -95,6 +98,7 @@ int main () {
     dataTypes.codeChallange();
 
     newLine();
+
     std::cout << GREEN << "Operators" << RESET << std::endl;
     operators.arethmeticOperators();
     operators.trackingSavings();
@@ -103,6 +107,8 @@ int main () {
     operators.logicOperators();
     operators.precedenceOperator();
     operators.OpertorsCodeChallange();
+
+    newLine();
 
     std::cout << GREEN << "Variables" << RESET << std::endl;
     strings.overview();
@@ -116,14 +122,20 @@ int main () {
     strings.cStyleStrings();
     strings.codeChallange();
 
+    newLine();
+
     std::cout << GREEN << "Math" << RESET << std::endl;
     math.overview();
+
+    newLine();
 
     std::cout << GREEN << "Booleans" << RESET << std::endl;
     booleans.overview();
     booleans.booleanExpressions();
     booleans.realLifeExample();
     booleans.codingChallange();
+
+    newLine();
 
     std::cout << GREEN << "If Statements" << RESET << std::endl;
     ifElse.overview();
@@ -135,7 +147,13 @@ int main () {
     ifElse.realLifeExample();
     ifElse.codeChallange();
 
+    newLine();
+
     std::cout << GREEN << "Switch" << RESET << std::endl;
+    switches.overview();
+    switches.codeChallenge();
+
+    newLine();
 
 
 

@@ -31,4 +31,6 @@ add_executable(c_pp_Grundlagen
         Booleans/Booleans.h
         IfElse/IfElse.cpp
         IfElse/IfElse.h
+        Switch/Switch.cpp
+        Switch/Switch.h
 )

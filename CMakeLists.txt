@@ -33,4 +33,6 @@ add_executable(c_pp_Grundlagen
         IfElse/IfElse.h
         Switch/Switch.cpp
         Switch/Switch.h
+        WhileLoop/WhileLoop.cpp
+        WhileLoop/WhileLoop.h
 )

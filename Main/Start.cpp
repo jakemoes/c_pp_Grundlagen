@@ -20,6 +20,7 @@
 #include  "../Booleans/Booleans.h"
 #include  "../IfElse/IfElse.h"
 #include  "../Switch/Switch.h"
+#include  "../WhileLoop/WhileLoop.h"
 
 
 int main () {
@@ -37,6 +38,7 @@ int main () {
     Booleans booleans;
     IfElse ifElse;
     Switch switches;
+    WhileLoop whileLoop;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -152,6 +154,16 @@ int main () {
     std::cout << GREEN << "Switch" << RESET << std::endl;
     switches.overview();
     switches.codeChallenge();
+
+    newLine();
+
+    std::cout << GREEN << "While Loop" << RESET << std::endl;
+    whileLoop.overview();
+    whileLoop.doWhileLoop();
+    whileLoop.realLifeExample();
+    whileLoop.codeChallange ();
+
+
 
     newLine();
 

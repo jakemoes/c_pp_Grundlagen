@@ -21,6 +21,7 @@
 #include  "../IfElse/IfElse.h"
 #include  "../Switch/Switch.h"
 #include  "../WhileLoop/WhileLoop.h"
+#include  "../ForLoop/ForLoop.h"
 
 
 int main () {
@@ -39,6 +40,7 @@ int main () {
     IfElse ifElse;
     Switch switches;
     WhileLoop whileLoop;
+    ForLoop for_loop;
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -159,11 +161,19 @@ int main () {
 
     std::cout << GREEN << "While Loop" << RESET << std::endl;
     whileLoop.overview();
-    whileLoop.doWhileLoop();
+    std::cout << "--Input deactivated --" << std::endl;
+    //whileLoop.doWhileLoop();
     whileLoop.realLifeExample();
     whileLoop.codeChallange ();
 
+    newLine();
 
+    std::cout << GREEN << "For Loop" << RESET << std::endl;
+    for_loop.overview();
+    for_loop.nestedLoop();
+    for_loop.forEachLoop();
+    for_loop.realLifeExample();
+    for_loop.codeChallenge();
 
     newLine();
 

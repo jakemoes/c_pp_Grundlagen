@@ -18,10 +18,12 @@
 #include  "../Strings/Strings.h"
 #include  "../Math/Math.h"
 #include  "../Booleans/Booleans.h"
+#include "../BreakAndContinue/BreakAndContinue.h"
 #include  "../IfElse/IfElse.h"
 #include  "../Switch/Switch.h"
 #include  "../WhileLoop/WhileLoop.h"
 #include  "../ForLoop/ForLoop.h"
+#include "../BreakAndContinue/BreakAndContinue.h"
 
 
 int main () {
@@ -41,6 +43,8 @@ int main () {
     Switch switches;
     WhileLoop whileLoop;
     ForLoop for_loop;
+    BreakAndContinue breakAndContinue;
+
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
     getStarted.getStarted();
@@ -177,11 +181,11 @@ int main () {
 
     newLine();
 
+    std::cout << GREEN << "Break and Continue" << RESET << std::endl;
+    breakAndContinue.Brak();
+    breakAndContinue.Continue();
 
-
-
-
-
+    newLine();
 
 
 

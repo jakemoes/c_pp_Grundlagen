@@ -37,4 +37,6 @@ add_executable(c_pp_Grundlagen
         WhileLoop/WhileLoop.h
         ForLoop/ForLoop.cpp
         ForLoop/ForLoop.h
+        BreakAndContinue/BreakAndContinue.cpp
+        BreakAndContinue/BreakAndContinue.h
 )

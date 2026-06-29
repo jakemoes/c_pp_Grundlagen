@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-#include "../Arrays/Arrays.h"
+
 #include "../Utility/Console.h"
 
 #include "../GetStarted/GetStarted.h"
@@ -19,7 +19,6 @@
 #include  "../Strings/Strings.h"
 #include  "../Math/Math.h"
 #include  "../Booleans/Booleans.h"
-#include "../BreakAndContinue/BreakAndContinue.h"
 #include  "../IfElse/IfElse.h"
 #include  "../Switch/Switch.h"
 #include  "../WhileLoop/WhileLoop.h"

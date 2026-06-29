@@ -47,4 +47,6 @@ add_executable(c_pp_Grundlagen
         Enums/Enums.h
         Refences/Refernces.cpp
         Refences/Refernces.h
+        Pointers/Pointers.cpp
+        Pointers/Pointers.h
 )

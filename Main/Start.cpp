@@ -28,6 +28,7 @@
 #include "../Structures/Structures.h"
 #include  "../Enums/Enums.h"
 #include "../Refences/Refernces.h"
+#include "../Pointers/Pointers.h"
 
 
 int main () {
@@ -52,6 +53,7 @@ int main () {
     Structures structures;
     Enums enums;
     Refernces references;
+    Pointers pointers;
 
 
 
@@ -231,14 +233,19 @@ int main () {
 
     newLine();
 
-    std::cout << GREEN << "Refernces" << RESET << std::endl;
+    std::cout << GREEN << "References" << RESET << std::endl;
     references.overview ();
     references.updateThroughRefences();
     references.MemoryAddress();
 
     newLine();
 
+    std::cout << GREEN << "Pointers" << RESET << std::endl;
+    pointers.overview();
+    pointers.dereferencing();
+    pointers.modifyPointers();
 
+    newLine();
 
     return 0;
 }

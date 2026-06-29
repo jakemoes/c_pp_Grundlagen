@@ -27,6 +27,7 @@
 #include "../BreakAndContinue/BreakAndContinue.h"
 #include "../Arrays/Arrays.h"
 #include "../Structures/Structures.h"
+#include  "../Enums/Enums.h"
 
 
 int main () {
@@ -49,6 +50,7 @@ int main () {
     BreakAndContinue breakAndContinue;
     Arrays arrays;
     Structures structures;
+    Enums enums;
 
 
 
@@ -218,6 +220,16 @@ int main () {
     structures.multibleVariables();
     structures.namedStructure();
     structures.challange();
+
+    newLine();
+
+    std::cout << GREEN << "Enums" << RESET << std::endl;
+    enums.overview ();
+    enums.changeValues();
+    enums.enumInASwitchStatement();
+
+    newLine();
+
 
 
 

@@ -43,4 +43,6 @@ add_executable(c_pp_Grundlagen
         Arrays/Arrays.h
         Structures/Structures.cpp
         Structures/Structures.h
+        Enums/Enums.cpp
+        Enums/Enums.h
 )

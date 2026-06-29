@@ -39,4 +39,6 @@ add_executable(c_pp_Grundlagen
         ForLoop/ForLoop.h
         BreakAndContinue/BreakAndContinue.cpp
         BreakAndContinue/BreakAndContinue.h
+        Arrays/Arrays.cpp
+        Arrays/Arrays.h
 )

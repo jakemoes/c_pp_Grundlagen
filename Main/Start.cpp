@@ -6,6 +6,7 @@
 
 #include <iostream>
 
+#include "../Arrays/Arrays.h"
 #include "../Utility/Console.h"
 
 #include "../GetStarted/GetStarted.h"
@@ -24,6 +25,7 @@
 #include  "../WhileLoop/WhileLoop.h"
 #include  "../ForLoop/ForLoop.h"
 #include "../BreakAndContinue/BreakAndContinue.h"
+#include "../Arrays/Arrays.h"
 
 
 int main () {
@@ -44,6 +46,7 @@ int main () {
     WhileLoop whileLoop;
     ForLoop for_loop;
     BreakAndContinue breakAndContinue;
+    Arrays arrays;
 
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
@@ -182,12 +185,27 @@ int main () {
     newLine();
 
     std::cout << GREEN << "Break and Continue" << RESET << std::endl;
-    breakAndContinue.Brak();
+    breakAndContinue.Break();
     breakAndContinue.Continue();
 
     newLine();
 
+    std::cout << GREEN << "Arrays" << RESET << std::endl;
 
+    newLine();
+
+
+    arrays.overview();
+    arrays.output();
+    arrays.changeElement();
+    arrays.loopArrays();
+    arrays.forEach();
+    arrays.omitSize();
+    arrays.ArraySize();
+    arrays.realLifeExample();
+    arrays.lowestAge();
+    arrays.multidimensionalArray();
+    arrays.CodeChallange();
 
     return 0;
 }

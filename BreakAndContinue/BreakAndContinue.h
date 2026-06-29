@@ -8,7 +8,7 @@
 
 class BreakAndContinue {
     public:
-    int Brak();
+    int Break();
     int Continue();
 };
 

@@ -28,6 +28,7 @@
 #include "../Arrays/Arrays.h"
 #include "../Structures/Structures.h"
 #include  "../Enums/Enums.h"
+#include "../Refences/Refernces.h"
 
 
 int main () {
@@ -51,6 +52,7 @@ int main () {
     Arrays arrays;
     Structures structures;
     Enums enums;
+    Refernces references;
 
 
 
@@ -230,7 +232,12 @@ int main () {
 
     newLine();
 
+    std::cout << GREEN << "Refernces" << RESET << std::endl;
+    references.overview ();
+    references.updateThroughRefences();
+    references.MemoryAddress();
 
+    newLine();
 
 
 

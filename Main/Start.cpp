@@ -26,6 +26,7 @@
 #include  "../ForLoop/ForLoop.h"
 #include "../BreakAndContinue/BreakAndContinue.h"
 #include "../Arrays/Arrays.h"
+#include "../Structures/Structures.h"
 
 
 int main () {
@@ -47,6 +48,8 @@ int main () {
     ForLoop for_loop;
     BreakAndContinue breakAndContinue;
     Arrays arrays;
+    Structures structures;
+
 
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
@@ -206,6 +209,18 @@ int main () {
     arrays.lowestAge();
     arrays.multidimensionalArray();
     arrays.CodeChallange();
+
+    newLine();
+
+    std::cout << GREEN << "Structures" << RESET << std::endl;
+
+    structures.overview();
+    structures.multibleVariables();
+    structures.namedStructure();
+    structures.challange();
+
+
+
 
     return 0;
 }

@@ -41,4 +41,6 @@ add_executable(c_pp_Grundlagen
         BreakAndContinue/BreakAndContinue.h
         Arrays/Arrays.cpp
         Arrays/Arrays.h
+        Structures/Structures.cpp
+        Structures/Structures.h
 )

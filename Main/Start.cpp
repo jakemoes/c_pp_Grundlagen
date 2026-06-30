@@ -32,6 +32,7 @@
 #include "../MemoryManagement/MemoryManagement.h"
 #include "../Functions/Functions.h"
 #include "../FunctionParameters/FunctionParameters.h"
+#include "../FunctionOverloading/FunctionOverloading.h"
 
 
 int main () {
@@ -60,6 +61,7 @@ int main () {
     MemoryManagement memoryManagement;
     Functions functions;
     FunctionParameters functionParameters;
+    FunctionOverloading functionOverloading;
 
 
     std::cout << GREEN << R"(
@@ -299,6 +301,16 @@ int main () {
  functionParameters.passArrays();
  functionParameters.passStructures();
  functionParameters.realLifeExample();
+
+ newLine();
+
+std::cout << GREEN << "Function Overloading" << RESET << std::endl;
+ functionOverloading.functionWithoutOverloading();
+ functionOverloading.functionOverloading();
+
+ newLine();
+
+
 
 
 

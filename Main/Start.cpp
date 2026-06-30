@@ -30,6 +30,7 @@
 #include "../Refences/Refernces.h"
 #include "../Pointers/Pointers.h"
 #include "../MemoryManagement/MemoryManagement.h"
+#include "../Functions/Functions.h"
 
 
 int main () {
@@ -56,7 +57,21 @@ int main () {
     Refernces references;
     Pointers pointers;
     MemoryManagement memoryManagement;
+    Functions functions;
 
+
+    std::cout << GREEN << R"(
+    ___              _____       _             _       _
+   / __\ _     _    /__   \_   _| |_ ___  _ __(_) __ _| |
+  / /  _| |_ _| |_    / /\/ | | | __/ _ \| '__| |/ _` | |
+ / /__|_   _|_   _|  / /  | |_| | || (_) | |  | | (_| | |
+ \____/ |_|   |_|    \/    \__,_|\__\___/|_|  |_|\__,_|_|
+)" << RESET << std::endl;
+
+
+
+
+    newLine();
 
 
     std::cout << GREEN << "Get started" << RESET << std::endl;
@@ -256,6 +271,22 @@ int main () {
     //memoryManagement.newAndDeleteWithArrays();
 
     newLine();
+
+    std::cout << GREEN << R"(
+   ___                ___                 _   _
+  / __\ _     _      / __\   _ _ __   ___| |_(_) ___  _ __  ___
+ / /  _| |_ _| |_   / _\| | | | '_ \ / __| __| |/ _ \| '_ \/ __|
+/ /__|_   _|_   _| / /  | |_| | | | | (__| |_| | (_) | | | \__ \
+\____/ |_|   |_|   \/    \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
+   )" << RESET << std::endl;
+
+
+ newLine();
+
+ std::cout << GREEN << "Functions Overview" << RESET << std::endl;
+ functions.overview();
+
+
 
 
 

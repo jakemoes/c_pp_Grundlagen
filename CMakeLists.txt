@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 4.2)
 project(c_pp_Grundlagen)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories("GetStarted")
 

@@ -88,5 +88,7 @@ int Structures::challange() {
     std::cout << "Name: " << myStudent.name << std::endl;
     std::cout << "Age: " << myStudent.age << std::endl;
     std::cout << "Grade: " << myStudent.grade << std::endl;
+
+    return 0;
 }
 

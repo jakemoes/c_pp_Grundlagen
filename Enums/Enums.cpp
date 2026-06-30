@@ -20,6 +20,8 @@ int Enums::overview () {
     enum Level level = MEDIUM;
 
     std::cout << level << std::endl;
+
+    return 0;
 }
 
 

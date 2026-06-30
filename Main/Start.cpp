@@ -13,7 +13,7 @@
 #include "../Syntax/Syntax.h"
 #include "../Output/Output.h"
 #include "../Variables/Variables.h"
-#include  "../UserInput/userInput.h"
+#include  "../UserInput/UserInput.h"
 #include  "../DataTypes/DataTypes.h"
 #include  "../Operators/Operators.h"
 #include  "../Strings/Strings.h"

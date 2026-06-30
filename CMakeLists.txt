@@ -57,4 +57,6 @@ add_executable(c_pp_Grundlagen
         FunctionParameters/FunctionParameters.h
         FunctionOverloading/FunctionOverloading.cpp
         FunctionOverloading/FunctionOverloading.h
+        Scope/Scope.cpp
+        Scope/Scope.h
 )

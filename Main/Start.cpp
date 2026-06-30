@@ -33,6 +33,7 @@
 #include "../Functions/Functions.h"
 #include "../FunctionParameters/FunctionParameters.h"
 #include "../FunctionOverloading/FunctionOverloading.h"
+#include "../Scope/Scope.h"
 
 
 int main () {
@@ -62,6 +63,7 @@ int main () {
     Functions functions;
     FunctionParameters functionParameters;
     FunctionOverloading functionOverloading;
+    Scope scope;
 
 
     std::cout << GREEN << R"(
@@ -310,8 +312,13 @@ std::cout << GREEN << "Function Overloading" << RESET << std::endl;
 
  newLine();
 
+ std::cout << GREEN << "Scope" << RESET << std::endl;
+ scope.overview();
+ scope.global();
+ scope.naming();
+ scope.example ();
 
-
+newLine();
 
 
     return 0;

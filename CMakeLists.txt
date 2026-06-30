@@ -49,4 +49,6 @@ add_executable(c_pp_Grundlagen
         Refences/Refernces.h
         Pointers/Pointers.cpp
         Pointers/Pointers.h
+        MemoryManagement/MemoryManagement.cpp
+        MemoryManagement/MemoryManagement.h
 )

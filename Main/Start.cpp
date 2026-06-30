@@ -29,6 +29,7 @@
 #include  "../Enums/Enums.h"
 #include "../Refences/Refernces.h"
 #include "../Pointers/Pointers.h"
+#include "../MemoryManagement/MemoryManagement.h"
 
 
 int main () {
@@ -54,6 +55,7 @@ int main () {
     Enums enums;
     Refernces references;
     Pointers pointers;
+    MemoryManagement memoryManagement;
 
 
 
@@ -246,6 +248,16 @@ int main () {
     pointers.modifyPointers();
 
     newLine();
+
+    std::cout << GREEN << "Memory Management" << RESET << std::endl;
+    memoryManagement.overview();
+    memoryManagement.newAndDelete();
+    std::cout << "--Input deactivated --" << std::endl;
+    //memoryManagement.newAndDeleteWithArrays();
+
+    newLine();
+
+
 
     return 0;
 }

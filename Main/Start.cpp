@@ -35,6 +35,7 @@
 #include "../FunctionOverloading/FunctionOverloading.h"
 #include "../Scope/Scope.h"
 #include "../Recursion/Recursion.h"
+#include "../Lambda/Lambda.h"
 
 
 int main () {
@@ -66,6 +67,7 @@ int main () {
     FunctionOverloading functionOverloading;
     Scope scope;
     Recursion recursion;
+    Lambda lambda;
 
 
     std::cout << GREEN << R"(
@@ -328,8 +330,19 @@ recursion.overview();
 recursion.countdown();
 recursion.factorial();
 
+ newLine();
+
+ std::cout << GREEN << "Lambda" << RESET << std::endl;
+lambda.overview();
+lambda.lambdaWithParameters();
+lambda.functionalLamda();
+lambda.lamdaInLoops();
+lambda.captureClause();
+lambda.captureByReference();
 
  newLine();
+
+
 
     return 0;
 }

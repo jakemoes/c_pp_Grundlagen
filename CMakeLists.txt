@@ -61,4 +61,6 @@ add_executable(c_pp_Grundlagen
         Scope/Scope.h
         Recursion/Recursion.cpp
         Recursion/Recursion.h
+        Lambda/Lambda.cpp
+        Lambda/Lambda.h
 )

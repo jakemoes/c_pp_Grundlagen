@@ -38,6 +38,9 @@ int plusFunc(double x, double y) {
     return x + y;
 }
 
+int plusFunc(int x, int y, int z) {
+    return x + y + z;
+}
 
 int FunctionOverloading::functionOverloading() {
     int myNum = plusFuncInt(8, 5);
@@ -46,8 +49,19 @@ int FunctionOverloading::functionOverloading() {
     std::cout << "Int: " << myNum << std::endl;
     std::cout << "Double: " << myNum2 << std::endl;
 
+
+    int result1 = plusFunc(8, 5);
+    int result2 = plusFunc(1, 2, 3);
+
+    std::cout << "Sum of 2 numbers: " << result1 << std::endl;
+    std::cout << "Sum of 3 numbers: " << result2 << std::endl;
+
     return 0;
 }
+
+
+
+
 
 
 

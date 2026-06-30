@@ -31,6 +31,7 @@
 #include "../Pointers/Pointers.h"
 #include "../MemoryManagement/MemoryManagement.h"
 #include "../Functions/Functions.h"
+#include "../FunctionParameters/FunctionParameters.h"
 
 
 int main () {
@@ -58,6 +59,7 @@ int main () {
     Pointers pointers;
     MemoryManagement memoryManagement;
     Functions functions;
+    FunctionParameters functionParameters;
 
 
     std::cout << GREEN << R"(
@@ -286,7 +288,17 @@ int main () {
  std::cout << GREEN << "Functions Overview" << RESET << std::endl;
  functions.overview();
 
+ newLine();
 
+ std::cout << GREEN << "Function Parameters" << RESET << std::endl;
+ functionParameters.parametersAndArguments();
+ functionParameters.defaultParameterValues();
+ functionParameters.multipleParameters();
+ functionParameters.returnValue();
+ functionParameters.passByReference();
+ functionParameters.passArrays();
+ functionParameters.passStructures();
+ functionParameters.realLifeExample();
 
 
 

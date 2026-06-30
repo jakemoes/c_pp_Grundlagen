@@ -53,4 +53,6 @@ add_executable(c_pp_Grundlagen
         MemoryManagement/MemoryManagement.h
         Functions/Functions.cpp
         Functions/Functions.h
+        FunctionParameters/FunctionParameters.cpp
+        FunctionParameters/FunctionParameters.h
 )

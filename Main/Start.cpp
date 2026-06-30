@@ -34,6 +34,7 @@
 #include "../FunctionParameters/FunctionParameters.h"
 #include "../FunctionOverloading/FunctionOverloading.h"
 #include "../Scope/Scope.h"
+#include "../Recursion/Recursion.h"
 
 
 int main () {
@@ -64,6 +65,7 @@ int main () {
     FunctionParameters functionParameters;
     FunctionOverloading functionOverloading;
     Scope scope;
+    Recursion recursion;
 
 
     std::cout << GREEN << R"(
@@ -320,6 +322,14 @@ std::cout << GREEN << "Function Overloading" << RESET << std::endl;
 
 newLine();
 
+ std::cout << GREEN << "Recursion" << RESET << std::endl;
+
+recursion.overview();
+recursion.countdown();
+recursion.factorial();
+
+
+ newLine();
 
     return 0;
 }

@@ -7,6 +7,7 @@
 #include <iostream>
 #include <ostream>
 #include <string>
+#include <vector>
 
 int Arrays::overview() {
     std::string cars[4];

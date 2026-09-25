@@ -63,4 +63,24 @@ add_executable(c_pp_Grundlagen
         Recursion/Recursion.h
         Lambda/Lambda.cpp
         Lambda/Lambda.h
+        Classes/ClassesAndObjects/MyClassesAndObjects.cpp
+        Classes/ClassesAndObjects/MyClassesAndObjects.h
+        Classes/ClassMethods/MethodClass.cpp
+        Classes/ClassMethods/MethodClass.h
+        Classes/Constructors/Constructors/Constructors.cpp
+        Classes/Constructors/Constructors/Constructors.h
+        Classes/Constructors/ConstructorOverloading/ConstructorOverloading.cpp
+        Classes/Constructors/ConstructorOverloading/ConstructorOverloading.h
+        Classes/AccessSpecifiers/AccessSpecifiers.cpp
+        Classes/AccessSpecifiers/AccessSpecifiers.h
+        Classes/Encapsulation/Encapsulation.cpp
+        Classes/Encapsulation/Encapsulation.h
+        Classes/FriendFunctions/FriendFunctions.cpp
+        Classes/FriendFunctions/FriendFunctions.h
+        Classes/Inheritance/Inheritance/Inheritance.cpp
+        Classes/Inheritance/Inheritance/Inheritance.h
+        Classes/Inheritance/MultilevelInheritance/MultilevelInheritance.cpp
+        Classes/Inheritance/MultilevelInheritance/MultilevelInheritance.h
+        Classes/Inheritance/MultipleInheritance/MultipleInheritance.cpp
+        Classes/Inheritance/MultipleInheritance/MultipleInheritance.h
 )

@@ -36,6 +36,16 @@
 #include "../Scope/Scope.h"
 #include "../Recursion/Recursion.h"
 #include "../Lambda/Lambda.h"
+#include  "../Classes/ClassesAndObjects/MyClassesAndObjects.h"
+#include  "../Classes/ClassMethods/MethodClass.h"
+#include  "../Classes/Constructors/Constructors/Constructors.h"
+#include  "../Classes/Constructors/ConstructorOverloading/ConstructorOverloading.h"
+#include  "../Classes/AccessSpecifiers/AccessSpecifiers.h"
+#include  "../Classes/Encapsulation/Encapsulation.h"
+#include  "../Classes/FriendFunctions/FriendFunctions.h"
+#include "../Classes/Inheritance/Inheritance/Inheritance.h"
+#include "../Classes/Inheritance/MultilevelInheritance/MultilevelInheritance.h"
+#include "../Classes/Inheritance/MultipleInheritance/MultipleInheritance.h"
 
 
 int main () {
@@ -68,6 +78,17 @@ int main () {
     Scope scope;
     Recursion recursion;
     Lambda lambda;
+    //Classes and Objects
+    MyClassesAndObjects myClassesAndObjects;
+    MethodClass methodClass;
+    Constructors constructors;
+    ConstructorOverloading constructorOverloading;
+    AccessSpecifiers accessSpecifiers;
+    Encapsulation encapsulation;
+    FriendFunctions friendFunctions;
+    Inheritance inheritance;
+    MultilevelInheritance multilevelInheritance;
+    MultipleInheritance multipleInheritance;
 
 
     std::cout << GREEN << R"(
@@ -342,7 +363,66 @@ lambda.captureByReference();
 
  newLine();
 
+ std::cout << GREEN << R"(
+ ____               ____ _
+/ ___| _     _     / ___| | __ _ ___ ___  ___  ___
+| |   _| |_ _| |_  | |   | |/ _` / __/ __|/ _ \/ __|
+| |__|_   _|_   _| | |___| | (_| \__ \__ \  __/\__ \
+\____||_|   |_|    \____|_|\__,_|___/___/\___||___/
+   )" << RESET << std::endl;
 
+ newLine();
+
+ std::cout << GREEN << "Classes and Objects" << RESET << std::endl;
+myClassesAndObjects.ClassesAndObjectsPrint();
+methodClass.methodClassCall();
+
+ newLine();
+
+ std::cout << GREEN << "Constructors" << RESET << std::endl;
+ constructors.constructor();
+ constructors.constructorCar();
+ constructors.constructorCarOut();
+
+ newLine();
+
+ std::cout << GREEN << "Constructor Overloading" << RESET << std::endl;
+constructorOverloading.car();
+
+ newLine();
+
+ std::cout << GREEN << "Access Specifiers" << RESET << std::endl;
+accessSpecifiers.accessSpecifiers();
+
+ newLine();
+
+ std::cout << GREEN << "Encapsulation" << RESET << std::endl;
+encapsulation.employee();
+
+ newLine();
+
+ std::cout << GREEN << "Friend Functions" << RESET << std::endl;
+friendFunctions.employeeSalary();
+
+ newLine();
+
+ std::cout << GREEN << "Inheritance" << RESET << std::endl;
+inheritance.vehicle();
+
+ newLine();
+
+ std::cout << GREEN << "Multilevel Inheritance" << RESET << std::endl;
+multilevelInheritance.multiLevelInheritance();
+
+ newLine();
+
+ std::cout << GREEN << "Multiple Inheritance" << RESET << std::endl;
+multipleInheritance.multipleInheritance();
+
+ newLine();
+ std::cout << GREEN << "Access Specifiers" << RESET << std::endl;
+
+ newLine();
 
     return 0;
 }

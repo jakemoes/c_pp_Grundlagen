@@ -46,6 +46,12 @@
 #include "../Classes/Inheritance/Inheritance/Inheritance.h"
 #include "../Classes/Inheritance/MultilevelInheritance/MultilevelInheritance.h"
 #include "../Classes/Inheritance/MultipleInheritance/MultipleInheritance.h"
+#include "../Classes/Inheritance/InheritanceAccess/InheritanceAccess.h"
+#include "../Classes/Polymorphism/Polymorphism/Polymorphism.h"
+#include "../Classes/Polymorphism/VirtualFunctions/VirtualFunctions.h"
+#include "../Classes/Templates/Templates.h"
+#include "../Classes/Files/Files.h"
+#include "../Classes/DateAndTime/DateAndTime.h"
 
 
 int main () {
@@ -89,7 +95,12 @@ int main () {
     Inheritance inheritance;
     MultilevelInheritance multilevelInheritance;
     MultipleInheritance multipleInheritance;
-
+    InheritanceAccess inheritanceAccess;
+    Polymorphism polymorphism;
+    VirtualFunctions virtualFunctions;
+    Templates templates;
+    Files files;
+    DateAndTime dateAndTime;
 
     std::cout << GREEN << R"(
     ___              _____       _             _       _
@@ -420,7 +431,39 @@ multilevelInheritance.multiLevelInheritance();
 multipleInheritance.multipleInheritance();
 
  newLine();
- std::cout << GREEN << "Access Specifiers" << RESET << std::endl;
+ std::cout << GREEN << "Inheritance Access" << RESET << std::endl;
+ inheritanceAccess.inheritanceAccess();
+
+
+ newLine();
+ std::cout << GREEN << "Polymorphism" << RESET << std::endl;
+ polymorphism.polymorphism();
+
+newLine();
+
+std::cout << GREEN << "Virtual Functions" << RESET << std::endl;
+ virtualFunctions.normalFunction();
+ virtualFunctions.virtualFunctions();
+
+ newLine();
+
+std::cout << GREEN << "Templates" << RESET << std::endl;
+templates.templates();
+ templates.templatesBox();
+
+ newLine();
+
+std::cout << GREEN << "Files" << RESET << std::endl;
+ files.files();
+ files.readFiles();
+ files.deleteFiles();
+
+ newLine();
+
+ std::cout << GREEN << "Date and Time" << RESET << std::endl;
+ dateAndTime.time();
+ dateAndTime.timeNull();
+ dateAndTime.timestamp();
 
  newLine();
 

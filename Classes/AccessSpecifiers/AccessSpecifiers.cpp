@@ -21,7 +21,7 @@ int AccessSpecifiers::accessSpecifiers() {
     //myAccessSpecifiers.y = 20;
     std::cout << myAccessSpecifiers.x << std::endl;
     return 0;
-}
+};
 
 
 class MyAccessSpecifiersUsually {
@@ -29,3 +29,4 @@ private:
     int x;
     int y;
 };
+

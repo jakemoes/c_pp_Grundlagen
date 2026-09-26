@@ -83,4 +83,16 @@ add_executable(c_pp_Grundlagen
         Classes/Inheritance/MultilevelInheritance/MultilevelInheritance.h
         Classes/Inheritance/MultipleInheritance/MultipleInheritance.cpp
         Classes/Inheritance/MultipleInheritance/MultipleInheritance.h
+        Classes/Inheritance/InheritanceAccess/InheritanceAccess.cpp
+        Classes/Inheritance/InheritanceAccess/InheritanceAccess.h
+        Classes/Polymorphism/Polymorphism/Polymorphism.cpp
+        Classes/Polymorphism/Polymorphism/Polymorphism.h
+        "Classes/Polymorphism/VirtualFunctions/VirtualFunctions.cpp"
+        "Classes/Polymorphism/VirtualFunctions/VirtualFunctions.h"
+        Classes/Templates/Templates.cpp
+        Classes/Templates/Templates.h
+        Classes/Files/Files.cpp
+        Classes/Files/Files.h
+        Classes/DateAndTime/DateAndTime.cpp
+        Classes/DateAndTime/DateAndTime.h
 )

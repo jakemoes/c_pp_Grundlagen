@@ -95,4 +95,8 @@ add_executable(c_pp_Grundlagen
         Classes/Files/Files.h
         Classes/DateAndTime/DateAndTime.cpp
         Classes/DateAndTime/DateAndTime.h
+        Errors/Errors/Errors.cpp
+        Errors/Errors/Errors.h
+        Datastuctures/Vectors/Vectors.cpp
+        Datastuctures/Vectors/Vectors.h
 )

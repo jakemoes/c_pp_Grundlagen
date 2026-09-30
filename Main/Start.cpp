@@ -52,6 +52,8 @@
 #include "../Classes/Templates/Templates.h"
 #include "../Classes/Files/Files.h"
 #include "../Classes/DateAndTime/DateAndTime.h"
+#include  "../Errors/Errors/Errors.h"
+#include "../Datastuctures/Vectors/Vectors.h"
 
 
 int main () {
@@ -101,6 +103,8 @@ int main () {
     Templates templates;
     Files files;
     DateAndTime dateAndTime;
+    Errors errors;
+    Vectors vectors;
 
     std::cout << GREEN << R"(
     ___              _____       _             _       _
@@ -466,6 +470,40 @@ std::cout << GREEN << "Files" << RESET << std::endl;
  dateAndTime.timestamp();
 
  newLine();
+
+ std::cout << GREEN << R"(
+  ____              _____
+ / ___| _     _    | ____|_ __ _ __ ___  _ __ ___
+| |   _| |_ _| |_  |  _| | '__| '__/ _ \| '__/ __|
+| |__|_   _|_   _| | |___| |  | | | (_) | |  \__ \
+ \____||_|   |_|   |_____|_|  |_|  \___/|_|  |___/
+    )" << RESET << std::endl;
+
+ newLine();
+
+ std::cout << GREEN << "Errors" << RESET << std::endl;
+ errors.tryCatch();
+ errors.tryCatchRealLifeExample();
+ std::cout << "--Input deactivated --" << std::endl;
+ //errors.inputValidation();
+ //errors.inputValidationRange();
+ //errors.inputValidationText();
+
+ newLine();
+
+ std::cout << GREEN << R"(
+  ____              ____        _          ____  _                   _
+ / ___| _     _    |  _ \  __ _| |_ __ _  / ___|| |_ _ __ _   _  ___| |_ _   _ _ __ ___  ___
+| |   _| |_ _| |_  | | | |/ _` | __/ _` | \___ \| __| '__| | | |/ __| __| | | | '__/ _ \/ __|
+| |__|_   _|_   _| | |_| | (_| | || (_| |  ___) | |_| |  | |_| | (__| |_| |_| | | |  __/\__ \
+ \____||_|   |_|   |____/ \__,_|\__\__,_| \___ \| __| '__| | | |/ __| __| | | | '__/ _ \/ __|
+     )" << RESET << std::endl;
+
+
+ newLine();
+
+ std::cout << "Vectors" << std::endl;
+
 
     return 0;
 }
